@@ -1,0 +1,138 @@
+/* ===========================
+   Full-screen Soft Romantic Background
+=========================== */
+html {
+  height: 100%;
+  background: #e4176c; /* fallback soft pink */
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  min-height: 100vh;
+  background: linear-gradient(to bottom right, #f15898, #fff8fc);
+  color: #333;
+}
+
+/* ===========================
+   Links and Navigation
+=========================== */
+a {
+  text-decoration: none;
+  color: #c72c41; /* warm pink/red */
+}
+
+nav {
+  background: #f146b8; /* soft pastel pink */
+  padding: 15px;
+  text-align: center;
+}
+
+nav a {
+  margin: 0 15px;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #ff69b4; /* brighter pink on hover */
+}
+
+/* ===========================
+   Header
+=========================== */
+header {
+  text-align: center;
+  padding: 50px 20px;
+  background: #e0419b; /* soft pink section background */
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+}
+
+header img {
+  max-width: 80%;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  transition: transform 0.3s;
+}
+
+header img:hover {
+  transform: scale(1.05);
+}
+
+/* ===========================
+   Timeline Items
+=========================== */
+.timeline-item {
+  display: flex;
+  align-items: center;
+  margin: 40px auto;
+  max-width: 700px;
+  background: #f3078d; /* soft pink background */
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.15);
+}
+
+.timeline-item img {
+  width: 150px;
+  height: 150px;
+  border-radius: 15px;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+/* ===========================
+   Gallery
+=========================== */
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px;
+}
+
+.gallery img {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  border: 5px solid #fff;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  border-radius: 10px;
+  transition: transform 0.3s;
+}
+
+.gallery img:hover {
+  transform: scale(1.05);
+}
+
+/* ===========================
+   Love Letter / Song Section
+=========================== */
+.letter {
+  max-width: 700px;
+  margin: 50px auto;
+  background: #ec0488; /* soft pink background */
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  line-height: 1.6;
+}
+
+h1, h2 {
+  color: #c72c41;
+  text-align: center;
+}
+
+/* ===========================
+   Fade animation for elements
+=========================== */
+.fade {
+  opacity: 0;
+  transition: opacity 1.5s;
+}
